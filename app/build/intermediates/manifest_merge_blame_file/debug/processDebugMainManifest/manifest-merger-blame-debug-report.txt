@@ -1,0 +1,216 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.trackerapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Network & Location Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+16-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:10:5-85
+16-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:10:22-82
+17
+18    <!-- Service & Notification Permissions -->
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:13:5-77
+19-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:13:22-74
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+20-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:14:5-86
+20-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:14:22-83
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:15:5-77
+21-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:15:22-74
+22
+23    <permission
+23-->[androidx.core:core:1.15.0] C:\Users\rohrc\.gradle\caches\transforms-4\106bcf542590be15ea94c10e2c8d0300\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+24        android:name="com.example.trackerapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.15.0] C:\Users\rohrc\.gradle\caches\transforms-4\106bcf542590be15ea94c10e2c8d0300\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.15.0] C:\Users\rohrc\.gradle\caches\transforms-4\106bcf542590be15ea94c10e2c8d0300\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.example.trackerapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.15.0] C:\Users\rohrc\.gradle\caches\transforms-4\106bcf542590be15ea94c10e2c8d0300\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.15.0] C:\Users\rohrc\.gradle\caches\transforms-4\106bcf542590be15ea94c10e2c8d0300\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:17:5-45:19
+30        android:allowBackup="true"
+30-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:18:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.15.0] C:\Users\rohrc\.gradle\caches\transforms-4\106bcf542590be15ea94c10e2c8d0300\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+32        android:dataExtractionRules="@xml/data_extraction_rules"
+32-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:19:9-65
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:fullBackupContent="@xml/backup_rules"
+35-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:20:9-54
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:21:9-43
+37        android:label="@string/app_name"
+37-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:22:9-41
+38        android:networkSecurityConfig="@xml/network_security_config"
+38-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:26:9-69
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:23:9-54
+40        android:supportsRtl="true"
+40-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:24:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.TrackerApp"
+42-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:25:9-48
+43        android:usesCleartextTraffic="true" >
+43-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:27:9-44
+44        <activity
+44-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:29:9-37:20
+45            android:name="com.example.trackerapp.MainActivity"
+45-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:30:13-41
+46            android:exported="true"
+46-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:31:13-36
+47            android:theme="@style/Theme.TrackerApp" >
+47-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:32:13-52
+48            <intent-filter>
+48-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:33:13-36:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:34:17-69
+49-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:34:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:35:17-77
+51-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:35:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <!-- Location Tracking Foreground Service -->
+56        <service
+56-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:40:9-44:56
+57            android:name="com.example.trackerapp.service.LocationService"
+57-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:41:13-52
+58            android:enabled="true"
+58-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:42:13-35
+59            android:exported="false"
+59-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:43:13-37
+60            android:foregroundServiceType="location" />
+60-->C:\Users\rohrc\StudioProjects\wmcproj\app\src\main\AndroidManifest.xml:44:13-53
+61
+62        <activity
+62-->[androidx.compose.ui:ui-tooling-android:1.8.3] C:\Users\rohrc\.gradle\caches\transforms-4\95b0013f26c71c8db1145d1ec7fb6f2e\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+63            android:name="androidx.compose.ui.tooling.PreviewActivity"
+63-->[androidx.compose.ui:ui-tooling-android:1.8.3] C:\Users\rohrc\.gradle\caches\transforms-4\95b0013f26c71c8db1145d1ec7fb6f2e\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+64            android:exported="true" />
+64-->[androidx.compose.ui:ui-tooling-android:1.8.3] C:\Users\rohrc\.gradle\caches\transforms-4\95b0013f26c71c8db1145d1ec7fb6f2e\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+65        <activity
+65-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\rohrc\.gradle\caches\transforms-4\3d35c421bf25e5dbf417dceb81202a10\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\rohrc\.gradle\caches\transforms-4\3d35c421bf25e5dbf417dceb81202a10\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\rohrc\.gradle\caches\transforms-4\3d35c421bf25e5dbf417dceb81202a10\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\rohrc\.gradle\caches\transforms-4\3d35c421bf25e5dbf417dceb81202a10\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+69
+70        <service
+70-->[androidx.room:room-runtime:2.6.1] C:\Users\rohrc\.gradle\caches\transforms-4\82b4ce00a12e7c44d78b610e96b8efcc\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+71            android:name="androidx.room.MultiInstanceInvalidationService"
+71-->[androidx.room:room-runtime:2.6.1] C:\Users\rohrc\.gradle\caches\transforms-4\82b4ce00a12e7c44d78b610e96b8efcc\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+72            android:directBootAware="true"
+72-->[androidx.room:room-runtime:2.6.1] C:\Users\rohrc\.gradle\caches\transforms-4\82b4ce00a12e7c44d78b610e96b8efcc\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+73            android:exported="false" />
+73-->[androidx.room:room-runtime:2.6.1] C:\Users\rohrc\.gradle\caches\transforms-4\82b4ce00a12e7c44d78b610e96b8efcc\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\ec9dad7ff6cb97643832276ef3bad390\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\ec9dad7ff6cb97643832276ef3bad390\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+77            android:authorities="com.example.trackerapp.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\ec9dad7ff6cb97643832276ef3bad390\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\ec9dad7ff6cb97643832276ef3bad390\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\ec9dad7ff6cb97643832276ef3bad390\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\ec9dad7ff6cb97643832276ef3bad390\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\ec9dad7ff6cb97643832276ef3bad390\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\rohrc\.gradle\caches\transforms-4\3a5b98c0d800484534cfb475046ebb76\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\rohrc\.gradle\caches\transforms-4\3a5b98c0d800484534cfb475046ebb76\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\rohrc\.gradle\caches\transforms-4\3a5b98c0d800484534cfb475046ebb76\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+87                android:value="androidx.startup" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+88        </provider>
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\5a5efb59136c1be1d4e7debe86e05316\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\5a5efb59136c1be1d4e7debe86e05316\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\5a5efb59136c1be1d4e7debe86e05316\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+93
+94        <activity
+94-->[androidx.compose.ui:ui-test-manifest:1.8.3] C:\Users\rohrc\.gradle\caches\transforms-4\63bb2ae95efb9b46fdd69b5565b95b4c\transformed\ui-test-manifest-1.8.3\AndroidManifest.xml:23:9-26:79
+95            android:name="androidx.activity.ComponentActivity"
+95-->[androidx.compose.ui:ui-test-manifest:1.8.3] C:\Users\rohrc\.gradle\caches\transforms-4\63bb2ae95efb9b46fdd69b5565b95b4c\transformed\ui-test-manifest-1.8.3\AndroidManifest.xml:24:13-63
+96            android:exported="true"
+96-->[androidx.compose.ui:ui-test-manifest:1.8.3] C:\Users\rohrc\.gradle\caches\transforms-4\63bb2ae95efb9b46fdd69b5565b95b4c\transformed\ui-test-manifest-1.8.3\AndroidManifest.xml:25:13-36
+97            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+97-->[androidx.compose.ui:ui-test-manifest:1.8.3] C:\Users\rohrc\.gradle\caches\transforms-4\63bb2ae95efb9b46fdd69b5565b95b4c\transformed\ui-test-manifest-1.8.3\AndroidManifest.xml:26:13-76
+98
+99        <receiver
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+101            android:directBootAware="false"
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+102            android:enabled="true"
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+103            android:exported="true"
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+104            android:permission="android.permission.DUMP" >
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rohrc\.gradle\caches\transforms-4\932616fd152d5ca62897170e42762539\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+116            </intent-filter>
+117        </receiver>
+118    </application>
+119
+120</manifest>
