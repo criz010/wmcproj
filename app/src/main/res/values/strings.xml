@@ -1,0 +1,111 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">TrackerApp</string>
+
+    <!-- Navigation -->
+    <string name="nav_location">Location</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_back">Back</string>
+
+    <!-- Location Screen -->
+    <string name="location_title">Location Tracker</string>
+    <string name="location_subtitle">Precise GPS tracking for aviation professionals</string>
+    <string name="location_status_searching">Searching for GPS signal…</string>
+    <string name="location_status_found">Location acquired</string>
+    <string name="location_status_error">Location unavailable</string>
+
+    <!-- Location Details -->
+    <string name="location_label_latitude">Latitude</string>
+    <string name="location_label_longitude">Longitude</string>
+    <string name="location_label_accuracy">Accuracy</string>
+    <string name="location_label_altitude">Altitude</string>
+    <string name="location_label_bearing">Bearing</string>
+    <string name="location_label_speed">Speed</string>
+    <string name="location_label_timestamp">Last Update</string>
+
+    <!-- Units -->
+    <string name="unit_meters">m</string>
+    <string name="unit_meters_long">meters</string>
+    <string name="unit_mps">m/s</string>
+    <string name="unit_kmh">km/h</string>
+    <string name="unit_degrees">°</string>
+
+    <!-- Accuracy Indicators -->
+    <string name="accuracy_excellent">Excellent</string>
+    <string name="accuracy_very_good">Very Good</string>
+    <string name="accuracy_good">Good</string>
+    <string name="accuracy_fair">Fair</string>
+    <string name="accuracy_poor">Poor</string>
+    <string name="accuracy_none">No Signal</string>
+
+    <!-- Buttons -->
+    <string name="btn_get_location">Get Location</string>
+    <string name="btn_show_map">Show Map</string>
+    <string name="btn_request_permission">Grant Permission</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_settings">Open Settings</string>
+    <string name="btn_refresh">Refresh</string>
+
+    <!-- Permission Messages -->
+    <string name="permission_title">Location Permission Required</string>
+    <string name="permission_message">TrackerApp needs location permission to show your current position and track your movement.</string>
+    <string name="permission_rationale">Location permission is required for core app functionality. Please grant permission to continue.</string>
+    <string name="permission_denied">Location permission denied</string>
+    <string name="permission_permanently_denied">Location permission permanently denied. Please enable it in Settings.</string>
+
+    <!-- Error Messages -->
+    <string name="error_title">Error</string>
+    <string name="error_permission_denied">Location permission is required</string>
+    <string name="error_location_disabled">Location services are disabled. Please enable them in Settings.</string>
+    <string name="error_timeout">Location request timed out. Please try again.</string>
+    <string name="error_network">Network error occurred. Check your connection.</string>
+    <string name="error_unknown">An unexpected error occurred</string>
+    <string name="error_provider_unavailable">Location provider is unavailable</string>
+    <string name="error_no_location">No location available yet</string>
+
+    <!-- Map Screen -->
+    <string name="map_title">Location Map</string>
+    <string name="map_position">Position</string>
+    <string name="map_zoom">Zoom: %d%%</string>
+    <string name="map_zoom_in">Zoom In</string>
+    <string name="map_zoom_out">Zoom Out</string>
+    <string name="map_my_location">My Location</string>
+    <string name="map_attribution">© OpenStreetMap contributors</string>
+    <string name="map_loading">Loading map…</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_coordinate_format">Coordinate Format</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_dynamic_color">Dynamic Colors</string>
+
+    <!-- Coordinate Formats -->
+    <string name="format_decimal_degrees">Decimal Degrees (DD)</string>
+    <string name="format_degrees_minutes">Degrees Decimal Minutes (DDM)</string>
+    <string name="format_degrees_minutes_seconds">Degrees Minutes Seconds (DMS)</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="cd_app_logo">TrackerApp Logo</string>
+    <string name="cd_gps_signal">GPS Signal Indicator</string>
+    <string name="cd_accuracy_indicator">Accuracy Indicator</string>
+    <string name="cd_map_view">Map View</string>
+    <string name="cd_zoom_in">Zoom In Button</string>
+    <string name="cd_zoom_out">Zoom Out Button</string>
+    <string name="cd_my_location">Center on My Location</string>
+    <string name="cd_loading">Loading</string>
+
+    <!-- Empty States -->
+    <string name="empty_no_location">No location data available</string>
+    <string name="empty_request_location">Tap the button below to get your location</string>
+
+    <!-- Loading States -->
+    <string name="loading_location">Acquiring location…</string>
+    <string name="loading_map">Loading map tiles…</string>
+
+    <!-- Success Messages -->
+    <string name="success_location_found">Location acquired successfully</string>
+
+    <!-- Misc -->
+    <string name="unknown">Unknown</string>
+    <string name="not_available">N/A</string>
+</resources>
